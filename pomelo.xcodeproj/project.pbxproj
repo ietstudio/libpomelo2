@@ -35,7 +35,7 @@
 		8F58EE243B0A1D3997A6F4E7 /* test-tr_tls.c in Sources */ = {isa = PBXBuildFile; fileRef = 55556D5804B6E2EABD6288DA /* test-tr_tls.c */; };
 		96F3D640B03B400576220570 /* libpomelo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F0DEA8E45833ABE17C7E9B /* libpomelo2.a */; };
 		99CD6C41A416CE82491F4638 /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6ADD425B0036DEE678188C /* libuv.a */; };
-		A99B001320034EDA00E29F6C /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6ADD425B0036DEE678188C /* libuv.a */; };
+		A99B00302003569A00E29F6C /* libuv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ED6ADD425B0036DEE678188C /* libuv.a */; };
 		A9C937F000A7E51360518F88 /* pc_trans.c in Sources */ = {isa = PBXBuildFile; fileRef = EA98E9833D3892875EC73031 /* pc_trans.c */; };
 		B18C14D826B1A7412F80CEF7 /* tr_dummy.c in Sources */ = {isa = PBXBuildFile; fileRef = 1B5FA4BFCCD305A28C0B9049 /* tr_dummy.c */; };
 		BBD56948A8FF190B31967BC2 /* pr_msg.c in Sources */ = {isa = PBXBuildFile; fileRef = EE190493AADBB17FF4BDFAF1 /* pr_msg.c */; };
@@ -112,7 +112,7 @@
 			remoteGlobalIDString = 0F9AD78A28D4AB83078B4C46;
 			remoteInfo = "run-benchmarks";
 		};
-		A99B000E20034ED600E29F6C /* PBXContainerItemProxy */ = {
+		A99B002B2003569600E29F6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C5DF9D4D2B037A2E97E054FD /* uv.xcodeproj */;
 			proxyType = 1;
@@ -190,7 +190,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A99B001320034EDA00E29F6C /* libuv.a in Frameworks */,
+				A99B00302003569A00E29F6C /* libuv.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,7 +362,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A99B000F20034ED600E29F6C /* PBXTargetDependency */,
+				A99B002C2003569600E29F6C /* PBXTargetDependency */,
 			);
 			name = libpomelo2;
 			productName = pomelo2;
@@ -572,10 +572,10 @@
 			target = 3A43BE8C37C089000CACAC46 /* libpomelo2 */;
 			targetProxy = 42B8A6D915480A2AB0478139 /* PBXContainerItemProxy */;
 		};
-		A99B000F20034ED600E29F6C /* PBXTargetDependency */ = {
+		A99B002C2003569600E29F6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = libuv;
-			targetProxy = A99B000E20034ED600E29F6C /* PBXContainerItemProxy */;
+			targetProxy = A99B002B2003569600E29F6C /* PBXContainerItemProxy */;
 		};
 		C8B03BE61FC1E1585EF3444B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
