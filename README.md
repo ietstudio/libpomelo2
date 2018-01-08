@@ -53,3 +53,9 @@ configure jpomelo compilation for java
 - -Dbuild_cspomelo=[true|false], `false` by default.
 
 configure cspomelo compilation for c#
+
+
+
+# cocos2d-x
+
+gyp --depth=. pomelo.gyp -Dno_tls_support=true -Duse_sys_jansson=true
