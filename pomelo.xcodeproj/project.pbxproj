@@ -756,6 +756,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -793,6 +794,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
 				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -822,6 +824,7 @@
 				);
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
 			};
 			name = Release;
 		};
@@ -928,6 +931,7 @@
 				);
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
 			};
 			name = Debug;
 		};
